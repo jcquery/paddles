@@ -12,8 +12,9 @@ Paddles is a ping-pong league tracker that allows players to join a league and c
 -  ExpressJS
 -  Knex.js
 -  PostgreSQL
+- Postmark API
 
-The front-end used the Materialize framework with some extra lifting done with jQuery. The server uses ExpressJS, which talks to the PostgreSQL database with Knex.js. 
+The front-end used the Materialize framework with some extra lifting done with jQuery. The server uses ExpressJS, which talks to the PostgreSQL database with Knex.js. The Postmark API provides a supporting role and sends confirmation emails when needed.
 
 To see an example league, use this login:
 Email: stanley@paddles.net
